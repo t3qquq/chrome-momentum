@@ -1,0 +1,18 @@
+.js-clock {
+  position: relative;
+  display: flex;
+  font-size: 64px;
+}
+
+.js-clock h2 {
+  left: -7vh;
+  bottom: 0;
+  position: absolute;
+  font-size: 20px;
+}
+
+.js-day {
+  margin-top: 2vh;
+  text-align: center;
+  font-size: 25px;
+}

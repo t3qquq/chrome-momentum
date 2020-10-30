@@ -1,5 +1,6 @@
 @import "reset.css";
-
+@import "background.css";
+@import "clock.css";
 .greetings,
 .form {
   display: none;
@@ -13,22 +14,10 @@ body {
   align-items: center;
   justify-content: center;
   display: flex;
-  flex-direction: column;
-}
-
-.js-clock {
-  display: flex;
-  font-size: 64px;
-}
-
-.js-clock h2 {
-  display: flex;
-  align-items: center;
-  margin-left: 3vw;
-  font-size: 30px;
 }
 
 h4 {
   margin-top: 5vh;
+  text-align: center;
   font-size: 28px;
 }
