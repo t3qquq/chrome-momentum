@@ -1,23 +1,13 @@
 @import "reset.css";
+@import "effects.css";
 @import "background.css";
 @import "clock.css";
-.greetings,
-.form {
-  display: none;
-}
-.showing {
-  display: block;
-}
+@import "nameAndGreet.css";
+
 body {
   height: 100vh;
   width: 100vw;
   align-items: center;
   justify-content: center;
   display: flex;
-}
-
-h4 {
-  margin-top: 5vh;
-  text-align: center;
-  font-size: 28px;
 }

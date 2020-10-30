@@ -1,0 +1,43 @@
+.greetings,
+.form {
+  display: none;
+}
+.showing {
+  display: block;
+}
+input {
+  animation: appear 2s forwards;
+  opacity: 0;
+  animation-delay: 0.9s;
+  text-align: center;
+  width: 30vh;
+  margin-top: 10vh;
+  font-size: 24px;
+  background-color: inherit;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  transition: width 0.4s ease-in-out;
+}
+input::placeholder {
+  transition: 1s ease-in-out all;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+input:focus {
+  width: 50vh;
+  outline: none;
+  border-bottom: 3px double rgba(0, 0, 0, 0.8);
+}
+input:focus::placeholder {
+  opacity: 0;
+}
+
+h4 {
+  opacity: 0;
+  animation: appear 2s forwards;
+  animation-delay: 0.9s;
+  margin-top: 5vh;
+  text-align: center;
+  font-size: 28px;
+}

@@ -1,4 +1,6 @@
 .background-design {
+  opacity: 0;
+  animation: appear 0.5s forwards;
   height: 100vh;
   width: 100vh;
   background-color: teal;
@@ -6,4 +8,9 @@
   justify-content: center;
   display: flex;
   flex-direction: column;
+}
+.app-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
