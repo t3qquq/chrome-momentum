@@ -38,9 +38,7 @@ function setBlockLoc(){
 function flipBlock(){
     const time = new Date();
     const sec = time.getSeconds();
- 
- //   timeBlocks[sec].classList.add('time-block--flipped');
- 
+  
     if(sec>0&&sec<16){
         timeBlocks[sec].classList.add('time-block--flipped-left');
         timeBlocks[sec-1].classList.remove('time-block--flipped-left');
