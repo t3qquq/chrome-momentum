@@ -1,8 +1,8 @@
 .background-design {
   opacity: 0;
   animation: appear 0.5s forwards;
-  height: 100vh;
-  width: 100vh;
+  height: 96vh;
+  width: 96vh;
   background-color: teal;
   align-items: center;
   justify-content: center;
@@ -19,7 +19,57 @@
 .time-block {
   position: absolute;
   text-align: center;
-  width: 6.25vh;
-  height: 6.25vh;
+  width: 6vh;
+  height: 6vh;
   border: none;
+}
+
+.time-block--flipped-left {
+  background-color: white;
+  animation: leftLineFlip 0.5s;
+}
+.time-block--flipped-bottom {
+  background-color: white;
+  animation: bottomLineFlip 0.5s;
+}
+.time-block--flipped-right {
+  background-color: white;
+  animation: rightLineFlip 0.5s;
+}
+.time-block--flipped-up {
+  background-color: white;
+  animation: upLineFlip 0.5s;
+}
+
+@keyframes leftLineFlip {
+  from {
+    transform: translateY(-6vh) rotateX(0);
+  }
+  to {
+    transform: translateY(0) rotateX(180deg);
+  }
+}
+@keyframes bottomLineFlip {
+  from {
+    transform: translateX(-6vh) rotateY(0);
+  }
+  to {
+    transform: rotateY(180deg) translateX(0);
+  }
+}
+@keyframes rightLineFlip {
+  from {
+    transform: translateY(6vh) rotateX(0);
+  }
+  to {
+    transform: rotateX(-180deg) translateY(0);
+  }
+}
+@keyframes upLineFlip {
+  from {
+    transform: translateX(6vh) rotateY(0);
+  }
+  to {
+    transform: rotateY(-180deg) translateX(0);
+  }
 }
