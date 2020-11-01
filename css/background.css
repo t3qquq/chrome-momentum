@@ -25,22 +25,21 @@
   background-color: white;
 }
 
-/*
 .time-block--flipped-left {
   background-color: white;
-  animation: leftLineFlip 0.4s linear;
+  animation: leftLineFlip 1s ease-in-out infinite;
 }
 .time-block--flipped-bottom {
   background-color: white;
-  animation: bottomLineFlip 0.4s linear;
+  animation: bottomLineFlip 1s ease-in-out infinite;
 }
 .time-block--flipped-right {
   background-color: white;
-  animation: rightLineFlip 0.4s linear;
+  animation: rightLineFlip 1s ease-in-out infinite;
 }
 .time-block--flipped-up {
   background-color: white;
-  animation: upLineFlip 0.4s linear;
+  animation: upLineFlip 1s ease-in-out infinite;
 }
 
 @keyframes leftLineFlip {
@@ -87,5 +86,3 @@
     transform: rotateY(360deg) translateX(0);
   }
 }
-
-*/
