@@ -1,8 +1,8 @@
 .background-design {
   opacity: 0;
   animation: appear 0.5s forwards;
-  height: 100vh;
-  width: 100vh;
+  height: 96vh;
+  width: 96vh;
   background-color: teal;
   align-items: center;
   justify-content: center;
